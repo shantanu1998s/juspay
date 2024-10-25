@@ -1,0 +1,82 @@
+.df-info-card {
+  background-color: var(--Primary-Light, rgba(247, 249, 251, 1)) !important;
+  outline: none !important;
+  border: none !important;
+
+  display: flex;
+  flex-direction: column !important;
+  align-items: start;
+  gap: 26px;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.info-card-header {
+  width: 100%;
+}
+
+.info-card-header > h2 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+}
+
+.dark .df-info-card {
+  background-color: var(--Primary-Light, rgba(255, 255, 255, 0.05)) !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.default-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 28px;
+  margin-bottom: 100px;
+}
+
+.dashboard-page-header-wrapper {
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-page-header-wrapper > h2 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  padding: var(--gap-xs) var(--gap-md);
+}
+
+/* --------SALES TABLE------- */
+.sales-table th {
+  color: var(--black-40, rgba(28, 28, 28, 0.4));
+}
+
+.dark .sales-table th {
+  color: var(--black-40, rgba(255, 255, 255, 0.4));
+}
+
+.sales-table th,
+td {
+  height: 40px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+
+/* ---------------- SALES METRICS ----------------  */
+.metrics-wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  gap: 24px;
+}
+
+.metrics-wrapper-row {
+  width: 50%;
+}

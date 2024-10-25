@@ -1,0 +1,30 @@
+.sidebar-vaul-content-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  outline: none;
+}
+
+.sidebar-vaul-content {
+  width: 250px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: var(--gap-xl);
+  flex-grow: 1;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: auto;
+}
+
+.dark .sidebar-vaul-content {
+  background-color: rgba(28, 28, 28, 1);
+  color: #ffffff;
+}

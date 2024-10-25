@@ -1,0 +1,49 @@
+.quick-options-wrapper {
+  width: 100%;
+}
+
+.quick-options-tab-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.quick-options-tab-button {
+  width: 100%;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.quick-options-tab-button:hover,
+.quick-options-tab-button:focus-visible {
+  background: var(--black-5, rgba(28, 28, 28, 0.05));
+}
+
+.quick-options-tab-buttons > button {
+  justify-content: flex-start;
+}
+
+.quick-options-tab-buttons > button[data-state="inactive"] {
+  opacity: 0.6;
+}
+.quick-options-tab-content {
+  width: 100%;
+}
+
+.recent-item {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.recent-item > button {
+  height: 32px;
+  border-radius: 4px;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 4px 8px;
+}
+
+.recent-item > button:hover {
+  background: var(--black-5, rgba(28, 28, 28, 0.05));
+}

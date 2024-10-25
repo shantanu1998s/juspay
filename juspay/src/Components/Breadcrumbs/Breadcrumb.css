@@ -1,0 +1,33 @@
+.breadcrumb-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 28px;
+  gap: 8px;
+  border-radius: 8px;
+}
+
+.breadcrumb-base {
+  color: var(--black-40, rgba(28, 28, 28, 0.4));
+}
+
+.dark .breadcrumb-base {
+  color: var(--black-40, rgba(255, 255, 255, 0.4));
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-separator {
+  margin-left: var(--gap-md);
+}
+
+.breadcrumb-link {
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}

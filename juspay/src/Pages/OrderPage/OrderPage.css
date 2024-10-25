@@ -1,0 +1,74 @@
+.order-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: var(--gap-xl);
+}
+
+.page-header {
+  width: 100%;
+  height: 28px;
+  padding: var(--gap-xs) var(--gap-md);
+}
+
+.page-header > h2 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-table td,
+th {
+  text-align: left;
+  height: 40px;
+  cursor: pointer;
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--black-5, rgba(28, 28, 28, 0.05));
+}
+
+.dark td,
+.dark th {
+  border-bottom: 1px solid var(--black-5, rgba(255, 255, 255, 0.1));
+}
+
+.order-table tr {
+  border-bottom: 1px solid var(--black-10, rgba(255, 255, 255, 0.1));
+}
+
+.light tr:hover {
+  background: var(--Primary-Light, rgba(247, 249, 251, 1));
+}
+
+.dark tr:hover {
+  background: var(--Primary-Light, rgba(255, 255, 255, 0.05));
+}
+
+.table-header {
+  color: rgba(28, 28, 28, 0.4);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+
+.dark .table-header {
+  color: var(--black-40, rgba(255, 255, 255, 0.4));
+}
+
+.order-table td {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}

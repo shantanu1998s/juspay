@@ -1,0 +1,39 @@
+.dashboard-infobar-wrapper {
+  width: 100%;
+  height: 68px;
+  padding: 20px 28px;
+  border-bottom: 1px solid var(--black-10, rgba(28, 28, 28, 0.1));
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark .dashboard-infobar-wrapper {
+  border-bottom: 1px solid var(--black-10, rgba(255, 255, 255, 0.1));
+}
+
+.dashboard-infobar-wrapper > div {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-md);
+}
+
+.infobar-button {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: var(--gap-xs);
+}
+
+.infobar-button:hover {
+  background: var(--black-5, rgba(28, 28, 28, 0.05));
+}
+
+.dark .infobar-button:hover {
+  background: var(--black-5, rgba(255, 255, 255, 0.1));
+}
