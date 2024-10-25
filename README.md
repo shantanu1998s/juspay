@@ -1,6 +1,6 @@
 # Juspay Dashboard
 
-Hosted live at https://juspay-five.vercel.app/
+Hosted live at https://soft-bublanina-97a39b.netlify.app/
 
 
 
@@ -29,4 +29,4 @@ npm run dev
 
 4. Follow the link in the terminal to open the app in the browser of your choice
 
-For full documentation and design choices visit : https://juspay-five.vercel.app/
+For full documentation and design choices visit : https://soft-bublanina-97a39b.netlify.app/
