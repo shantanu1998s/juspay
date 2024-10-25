@@ -2,7 +2,7 @@ import "./LandingPage.css";
 import Video from "@/Components/Video/Video";
 import { Link } from "react-router-dom";
 
-import { Tweet } from "react-tweet";
+
 
 const LandingPage = () => {
   return (
